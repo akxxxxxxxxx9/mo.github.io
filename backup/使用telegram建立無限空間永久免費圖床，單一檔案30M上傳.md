@@ -17,12 +17,12 @@
 2.Cloudflareboard倉庫， 點選開始設定 
 4.填寫項目名稱，建構指令填寫npm install，點選儲存並配置
 
-'''
+```python
 AUTH_CODE = diggoo
 BASIC_USER = admin
 BASIC_PASS = 123
 TG_CHAT_ID = -1002180544284
 TG_BOT_TOKEN = 1544711526:AAHiQI #機器人API
-'''
+``` 
 
 5.綁定KV資料庫：1,建立一個新的KV資料庫 2,-進入對應項目設定->綁定->新增->KV命名空間->變數名稱，填入img_url，KV命名空間選擇剛才建立好的KV資料庫
