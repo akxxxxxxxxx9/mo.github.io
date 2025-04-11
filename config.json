@@ -1,6 +1,48 @@
 {
-    "title":"momo",
-    "subTitle":"aki的Blog",
-    "avatarUrl":"http://momo-1-img.ao1160301aila.workers.dev/momobako.png",
-    "GMEEK_VERSION":"last"
+  "title": "桃箱",
+  "subTitle": "这里是aki，因为记忆力不好，我把这个部署在GitHub上的博客，来当作永久暴露在公网的笔记",
+  "avatarUrl": "http://momo-1-img.ao1160301aila.workers.dev/momobako.png",
+  "faviconUrl": "http://momo-1-img.ao1160301aila.workers.dev/favicon.ico",
+  "backgroundImage": "http://momo-1-img.ao1160301aila.workers.dev/background.jpg",
+  "welcomeMessage": "欢迎来到桃箱！这里是aki的记忆角落，记录生活与学习的点滴～",
+  "theme": {
+    "primaryColor": "#ff9999",
+    "secondaryColor": "#ffe6e6",
+    "textColor": "#333333",
+    "backgroundColor": "#fff"
+  },
+  "typography": {
+    "bodyFont": "Noto Serif SC",
+    "headingFont": "LXGW WenKai"
+  },
+  "navLinks": [
+    { "name": "首页", "url": "/" },
+    { "name": "关于", "url": "/about" },
+    { "name": "归档", "url": "/archive" },
+    { "name": "标签", "url": "/tags" }
+  ],
+  "socialLinks": {
+    "github": "https://github.com/yourusername",
+    "twitter": "https://twitter.com/yourusername",
+    "email": "mailto:your.email@example.com"
+  },
+  "socialIcons": {
+    "github": "fa-brands fa-github",
+    "twitter": "fa-brands fa-twitter",
+    "email": "fa-solid fa-envelope"
+  },
+  "posts": {
+    "limit": 5,
+    "showExcerpt": true,
+    "defaultImage": "http://momo-1-img.ao1160301aila.workers.dev/default-post.jpg"
+  },
+  "features": {
+    "search": false,
+    "darkMode": true
+  },
+  "responsive": {
+    "mobileMenu": "hamburger",
+    "maxWidth": "1200px"
+  },
+  "GMEEK_VERSION": "last"
 }
