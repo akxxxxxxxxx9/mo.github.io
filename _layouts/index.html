@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.data.config.title }}</title>
+  <link rel="icon" href="{{ site.data.config.faviconUrl }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- 头部 -->
+  <header style="background: url('{{ site.data.config.backgroundImage }}') no-repeat center/cover;">
+    <div class="container">
+      <img src="{{ site.data.config.avatarUrl }}" alt="Avatar" class="avatar">
+      <h1>{{ site.data.config.title }}</h1>
+      <p class="subtitle">{{ site.data.config.subTitle }}</p>
+      <p class="welcome">{{ site.data.config.welcomeMessage }}</p>
+      
+      <!-- 导航 -->
+      <nav>
+        {% for link in site.data.config.navLinks %}
+          <a href="{{ link.url }}" {% if link.url == page.url %}class="active"{% endif %}>{{ link.name }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <!-- 主内容 -->
+  <main class="container">
+    <section class="posts">
+      <h2>最新笔记</h2>
+      {% for post in site.posts limit: site.data.config.posts.limit %}
+        <article>
+          {% if post.image %}
+            <img src="{{ post.image }}" alt="{{ post.title }}" class="post-image">
+          {% else %}
+            <img src="{{ site.data.config.posts.defaultImage }}" alt="Default Image" class="post-image">
+          {% endif %}
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          {% if site.data.config.posts.showExcerpt %}
+            <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </section>
+  </main>
+
+  <!-- 底部 -->
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        {% for social in site.data.config.socialLinks %}
+          <a href="{{ social[1] }}" target="_blank">
+            <i class="{{ site.data.config.socialIcons[social[0]] }}"></i>
+          </a>
+        {% endfor %}
+      </div>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.data.config.title }}. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
