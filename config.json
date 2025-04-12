@@ -8,5 +8,5 @@
 {
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
-    "onePageListNum":15,
+    "onePageListNum":15
 }
