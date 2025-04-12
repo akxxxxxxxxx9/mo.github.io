@@ -5,7 +5,6 @@
     "GMEEK_VERSION":"last"
     "homeUrl":"https://blog.momobako.me",
     "onePageListNum":20,
-    "singlePage":["about"],
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
-    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
+    "allHead":"<script src='https://blog.momobako.me/Gmeek/plugins/GmeekBSZ.js'></script>",
+    "script":"<script src='https://blog.momobako.me/Gmeek/plugins/GmeekTOC.js'></script>",
 }
