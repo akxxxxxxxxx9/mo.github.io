@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>桃箱</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link><description>这里是aki，因为记忆力不好，我把这个部署在GITHUB上的博客，来当作永久暴露在公网的笔记</description><copyright>桃箱</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>http://momo-1-img.ao1160301aila.workers.dev/momobako.png</url><title>avatar</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link></image><lastBuildDate>Tue, 15 Apr 2025 17:57:59 +0000</lastBuildDate><managingEditor>桃箱</managingEditor><ttl>60</ttl><webMaster>桃箱</webMaster><item><title>测试</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>桃箱</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link><description>这里是aki，因为记忆力不好，我把这个部署在GITHUB上的博客，来当作永久暴露在公网的笔记</description><copyright>桃箱</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>http://momo-1-img.ao1160301aila.workers.dev/momobako.png</url><title>avatar</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link></image><lastBuildDate>Tue, 15 Apr 2025 18:10:16 +0000</lastBuildDate><managingEditor>桃箱</managingEditor><ttl>60</ttl><webMaster>桃箱</webMaster><item><title>测试</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</link><description>
 
 ## 粛聖!! ロリ神レクイエム☆
 
 ```Gmeek-html
-&lt;video controls width='100%' loading='lazy'&gt;
-  &lt;source src='https://github.com/momobako22/media-hosting/raw/refs/heads/main/%E5%BD%B1%E7%89%87/%E8%90%9D%E8%8E%89%E6%8E%A7.mp4' type='video/mp4'&gt;
+&lt;video controls width='100%' height='360' loading='lazy'&gt;
+  &lt;source src='https://raw.githubusercontent.com/momobako22/media-hosting/main/影片/萝莉控.mp4' type='video/mp4'&gt;
   你的浏览器不支持视频播放。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</guid><pubDate>Tue, 15 Apr 2025 14:47:15 +0000</pubDate></item><item><title>使用GitHub构建暴露在公网上的永久轻量级博客</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/shi-yong-GitHub-gou-jian-bao-lu-zai-gong-wang-shang-de-yong-jiu-qing-liang-ji-bo-ke.html</link><description>[Gmeek](https://github.com/Meekdai/Gmeek)
 ---
 &gt;本项目来源于https://github.com/Meekdai/Gmeek
