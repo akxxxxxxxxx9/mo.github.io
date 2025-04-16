@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>桃箱</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link><description>这里是aki，因为记忆力不好，我把这个部署在GITHUB上的博客，来当作永久暴露在公网的笔记</description><copyright>桃箱</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>http://momo-1-img.ao1160301aila.workers.dev/momobako.png</url><title>avatar</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link></image><lastBuildDate>Tue, 15 Apr 2025 18:22:37 +0000</lastBuildDate><managingEditor>桃箱</managingEditor><ttl>60</ttl><webMaster>桃箱</webMaster><item><title>测试</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>桃箱</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link><description>这里是aki，因为记忆力不好，我把这个部署在GITHUB上的博客，来当作永久暴露在公网的笔记</description><copyright>桃箱</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>http://momo-1-img.ao1160301aila.workers.dev/momobako.png</url><title>avatar</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 13:54:53 +0000</lastBuildDate><managingEditor>桃箱</managingEditor><ttl>60</ttl><webMaster>桃箱</webMaster><item><title>测试</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</link><description>影片测试
+---
 
-## 粛聖!! ロリ神レクイエム☆
+### [official]トルコ行進曲 - オワタ＼(^o^)／ feat.オワタP(AIきりたん).mp4
 
-`Gmeek-html&lt;iframe src='https://github.com/momobako22/media-hosting/raw/refs/heads/main/%E5%BD%B1%E7%89%87/%E8%90%9D%E8%8E%89%E6%8E%A7.mp4' width='100%' height='460px' frameborder='0' allowfullscreen='true'&gt;&lt;/iframe&gt;`
-
-
-`Gmeek-html&lt;iframe src='https://github.com/momobako22/media-hosting/raw/refs/heads/main/%E5%BD%B1%E7%89%87/%E8%90%9D%E8%8E%89%E6%8E%A7.mp4' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`
-。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</guid><pubDate>Tue, 15 Apr 2025 14:47:15 +0000</pubDate></item><item><title>使用GitHub构建暴露在公网上的永久轻量级博客</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/shi-yong-GitHub-gou-jian-bao-lu-zai-gong-wang-shang-de-yong-jiu-qing-liang-ji-bo-ke.html</link><description>[Gmeek](https://github.com/Meekdai/Gmeek)
+&lt;video controls&gt;
+    &lt;source src='https://github.com/momobako22/media-hosting/raw/refs/heads/main/%5Bofficial%5D%E3%83%88%E3%83%AB%E3%82%B3%E8%A1%8C%E9%80%B2%E6%9B%B2%20-%20%E3%82%AA%E3%83%AF%E3%82%BF%EF%BC%BC(%5Eo%5E)%EF%BC%8F%20feat.%E3%82%AA%E3%83%AF%E3%82%BFP(AI%E3%81%8D%E3%82%8A%E3%81%9F%E3%82%93).mp4' type='video/mp4'&gt;
+    Your browser does not support the video tag.
+&lt;/video&gt;。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</guid><pubDate>Tue, 15 Apr 2025 14:47:15 +0000</pubDate></item><item><title>使用GitHub构建暴露在公网上的永久轻量级博客</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/shi-yong-GitHub-gou-jian-bao-lu-zai-gong-wang-shang-de-yong-jiu-qing-liang-ji-bo-ke.html</link><description>[Gmeek](https://github.com/Meekdai/Gmeek)
 ---
 &gt;本项目来源于https://github.com/Meekdai/Gmeek
 &gt;一个博客框架，超轻量级个人博客模板。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/shi-yong-GitHub-gou-jian-bao-lu-zai-gong-wang-shang-de-yong-jiu-qing-liang-ji-bo-ke.html</guid><pubDate>Sat, 12 Apr 2025 08:37:23 +0000</pubDate></item><item><title>GitHub 图床 + Cloudflare 加速 部署</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/GitHub%20-tu-chuang-%20%2B%20Cloudflare%20-jia-su-%20-bu-shu.html</link><description>## 问题
