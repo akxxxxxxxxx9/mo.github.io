@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>桃箱</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link><description>这里是aki，因为记忆力不好，我把这个部署在GITHUB上的博客，来当作永久暴露在公网的笔记</description><copyright>桃箱</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>http://momo-1-img.ao1160301aila.workers.dev/momobako.png</url><title>avatar</title><link>https://akxxxxxxxxx9.github.io/mo.github.io</link></image><lastBuildDate>Tue, 22 Apr 2025 03:36:06 +0000</lastBuildDate><managingEditor>桃箱</managingEditor><ttl>60</ttl><webMaster>桃箱</webMaster><item><title>部署在cloudflare上的个人静态导航网页。</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/bu-shu-zai-cloudflare-shang-de-ge-ren-jing-tai-dao-hang-wang-ye-%E3%80%82.html</link><description>## 演示图片（一）
+## 演示图片（一）
 
 ![](https://mig01.996399.xyz/20250422111659050.png)
 
@@ -9,44 +8,44 @@
  *  自定义网站配置 
  */
 const config = {
-  title: 'SUOU AKI 导航', // 网站标题
-  subtitle: '周防秋', // 网站副标题
-  logo_icon: 'aki', // 网站图标（使用semantic-ui图标）
+  title: "SUOU AKI 导航", // 网站标题
+  subtitle: "周防秋", // 网站副标题
+  logo_icon: "aki", // 网站图标（使用semantic-ui图标）
   hitokoto: false, // 是否启用一言功能
   search: true, // 是否启用搜索功能
   search_engine: [ // 搜索引擎选项
-    { name: '必 应', template: 'https://www.bing.com/search?q=$s' }
+    { name: "必 应", template: "https://www.bing.com/search?q=$s" }
   ],
   selling_ads: false, // 是否显示域名出售信息（已禁用）
   lists: [ // 导航链接列表
     {
-      name: '服务站点',
-      icon: 'blog',
+      name: "服务站点",
+      icon: "blog",
       list: [
-        { url: 'https://mail.suouaki.me/', name: 'ZMAIL-24小时匿名邮箱', desc: '临时接码服务' },
-        { url: 'https://mail.996399.xyz/', name: 'ZMAIL-24小时匿名邮箱', desc: '@nanahira.ggff.net临时接码服务' },
-        { url: 'https://24mail.996399.xyz/', name: 'ZMAIL-24小时匿名邮箱', desc: '@wotoha.dpdns.org临时接码服务' },
-        { url: 'https://img.996399.xyz/', name: '无限空间免费图床服务，最高支持30MB文件', desc: '登陆密码:admin' },
-        { url: 'https://moemail.996399.xyz/', name: '萌萌哒永久邮箱服务', desc: '超多域名后缀可选，未释放权限，需联系站主' },
-        { url: 'https://rarara.ggff.net/moe', name: '萌萌哒永久邮箱服务', desc: '单域名后缀，释放权限' },
-        { url: 'https://now.momobako.me/', name: 'NewsNow热点资讯一览', desc: '热点资讯' },
-        { url: 'https://bako.996399.xyz/', name: 'SUOUAKI BLOG', desc: 'pages站点' },
-        { url: 'http://momobako.atwebpages.com/', name: '桃箱 BLOG', desc: '个人站点' },
-        { url: 'http://blog.momobako.me/', name: 'momobako blog', desc: 'GitHub pages站点' },
-        { url: 'http://momobako.endl.site/', name: '个人站点', desc: '开发中' }
+        { url: "https://mail.suouaki.me/", name: "ZMAIL-24小时匿名邮箱", desc: "临时接码服务" },
+        { url: "https://mail.996399.xyz/", name: "ZMAIL-24小时匿名邮箱", desc: "@nanahira.ggff.net临时接码服务" },
+        { url: "https://24mail.996399.xyz/", name: "ZMAIL-24小时匿名邮箱", desc: "@wotoha.dpdns.org临时接码服务" },
+        { url: "https://img.996399.xyz/", name: "无限空间免费图床服务，最高支持30MB文件", desc: "登陆密码:admin" },
+        { url: "https://moemail.996399.xyz/", name: "萌萌哒永久邮箱服务", desc: "超多域名后缀可选，未释放权限，需联系站主" },
+        { url: "https://rarara.ggff.net/moe", name: "萌萌哒永久邮箱服务", desc: "单域名后缀，释放权限" },
+        { url: "https://now.momobako.me/", name: "NewsNow热点资讯一览", desc: "热点资讯" },
+        { url: "https://bako.996399.xyz/", name: "SUOUAKI BLOG", desc: "pages站点" },
+        { url: "http://momobako.atwebpages.com/", name: "桃箱 BLOG", desc: "个人站点" },
+        { url: "http://blog.momobako.me/", name: "momobako blog", desc: "GitHub pages站点" },
+        { url: "http://momobako.endl.site/", name: "个人站点", desc: "开发中" }
       ]
     },
     {
-      name: '社交',
-      icon: 'users',
+      name: "社交",
+      icon: "users",
       list: [
-        { url: 'https://www.youtube.com/@aki_suou', name: 'aki_suou', desc: 'YouTube频道' },
-        { url: 'https://x.com/ccMj2Urwo295132', name: '推特', desc: 'X' },
-        { url: 'https://www.nicovideo.jp/user/128373082', name: 'nicovideo', desc: '周防アキ' },
-        { url: 'https://discord.gg/ARdVRfm7', name: 'discord', desc: '在用' },
-        { url: 'https://t.me/momo_bako', name: 'Telegram', desc: '个人活跃地' },
-        { url: 'https://www.instagram.com/haisa_kura/', name: 'instagram', desc: '个目前使用账号' },
-        { url: 'https://www.facebook.com/tara.ai.106068?mibextid=ZbWKwL', name: 'facebook', desc: '目前使用账号' }
+        { url: "https://www.youtube.com/@aki_suou", name: "aki_suou", desc: "YouTube频道" },
+        { url: "https://x.com/ccMj2Urwo295132", name: "推特", desc: "X" },
+        { url: "https://www.nicovideo.jp/user/128373082", name: "nicovideo", desc: "周防アキ" },
+        { url: "https://discord.gg/ARdVRfm7", name: "discord", desc: "在用" },
+        { url: "https://t.me/momo_bako", name: "Telegram", desc: "个人活跃地" },
+        { url: "https://www.instagram.com/haisa_kura/", name: "instagram", desc: "个目前使用账号" },
+        { url: "https://www.facebook.com/tara.ai.106068?mibextid=ZbWKwL", name: "facebook", desc: "目前使用账号" }
       ]
     }
   ]
@@ -58,12 +57,12 @@ const config = {
  *  @param attrs 属性数组
  *  @param content 内容
  */
-const el = (tag, attrs, content) =&gt; `&lt;${tag} ${attrs.join(' ')}&gt;${content}&lt;/${tag}&gt;`;
+const el = (tag, attrs, content) => `<${tag} ${attrs.join(" ")}>${content}</${tag}>`;
 
 /**
  *  处理HTTP请求
  */
-addEventListener('fetch', event =&gt; {
+addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
 });
 
@@ -79,14 +78,14 @@ async function handleRequest(request) {
  */
 function getFavicon(url) {
   const domain = url.replace(/^https?:\/\//, '').split('/')[0];
-  return `https://www.google.com/s2/favicons?domain=${domain}&amp;sz=32`;
+  return `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
 }
 
 /**
  *  渲染页面主体
  */
 function renderIndex() {
-  const footer = el('footer', [], el('div', ['class='footer''], ' 有问题联系:aki@suouaki.me ' + el('a', ['class='ui label''], el('i', ['class='balance scale icon''], '') + 'MIT License')));
+  const footer = el('footer', [], el('div', ['class="footer"'], ' 有问题联系:aki@suouaki.me ' + el('a', ['class="ui label"'], el('i', ['class="balance scale icon"'], "") + 'MIT License')));
   return renderHeader() + renderMain() + footer;
 }
 
@@ -94,22 +93,22 @@ function renderIndex() {
  *  渲染头部（包含标题和搜索框）
  */
 function renderHeader() {
-  const title = el('h1', ['class='ui inverted header''],
-    el('i', [`class='${config.logo_icon} icon'`], '') +
-    el('div', ['class='content''], config.title +
-      el('div', ['class='sub header''], config.subtitle)
+  const title = el('h1', ['class="ui inverted header"'],
+    el('i', [`class="${config.logo_icon} icon"`], "") +
+    el('div', ['class="content"'], config.title +
+      el('div', ['class="sub header"'], config.subtitle)
     )
   );
 
-  const input = el('div', ['class='ui right icon fluid large input''],
-    el('input', ['id='searchinput'', 'type='search'', 'placeholder='搜索你想要知道的……'', 'autocomplete='off''], '') +
-    el('i', ['class='inverted circular search link icon''], '')
+  const input = el('div', ['class="ui right icon fluid large input"'],
+    el('input', ['id="searchinput"', 'type="search"', 'placeholder="搜索你想要知道的……"', 'autocomplete="off"'], "") +
+    el('i', ['class="inverted circular search link icon"'], "")
   );
 
   return el('header', [],
-    el('div', ['id='head'', 'class='ui inverted vertical masthead segment''],
-      el('div', ['id='title'', 'class='ui text container''],
-        title + (config.search ? el('div', ['class='search-container''], input) : '')
+    el('div', ['id="head"', 'class="ui inverted vertical masthead segment"'],
+      el('div', ['id="title"', 'class="ui text container"'],
+        title + (config.search ? el('div', ['class="search-container"'], input) : "")
       )
     )
   );
@@ -119,44 +118,44 @@ function renderHeader() {
  *  渲染主要内容（站点和社交卡片）
  */
 function renderMain() {
-  const main = config.lists.map((item) =&gt; {
-    const card = (url, name, desc) =&gt; el('a', ['class='card'', `href='${url}'`, 'target='_blank''],
-      el('div', ['class='content''],
-        el('img', ['class='left floated avatar ui image'', `src='${getFavicon(url)}'`], '') +
-        el('div', ['class='header''], name) +
-        el('div', ['class='meta''], desc)
+  const main = config.lists.map((item) => {
+    const card = (url, name, desc) => el('a', ['class="card"', `href="${url}"`, 'target="_blank"'],
+      el('div', ['class="content"'],
+        el('img', ['class="left floated avatar ui image"', `src="${getFavicon(url)}"`], "") +
+        el('div', ['class="header"'], name) +
+        el('div', ['class="meta"'], desc)
       )
     );
-    const divider = el('h4', ['class='ui horizontal divider header''],
-      el('i', [`class='${item.icon} icon'`], '') + item.name
+    const divider = el('h4', ['class="ui horizontal divider header"'],
+      el('i', [`class="${item.icon} icon"`], "") + item.name
     );
 
-    const content = el('div', ['class='ui four stackable cards''],
-      item.list.map((link) =&gt; card(link.url, link.name, link.desc)).join('')
+    const content = el('div', ['class="ui four stackable cards"'],
+      item.list.map((link) => card(link.url, link.name, link.desc)).join("")
     );
 
-    return `&lt;div class='section-bg'&gt;${divider + content}&lt;/div&gt;`;
-  }).join('');
+    return `<div class="section-bg">${divider + content}</div>`;
+  }).join("");
 
-  return `&lt;main&gt;${main}&lt;/main&gt;`;
+  return `<main>${main}</main>`;
 }
 
 /**
  *  渲染完整HTML页面
  */
 function renderHTML(index) {
-  return `&lt;!DOCTYPE html&gt;
-  &lt;html lang='en'&gt;
-  &lt;head&gt;
-      &lt;meta charset='UTF-8'&gt;
-      &lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
-      &lt;meta http-equiv='X-UA-Compatible' content='ie=edge'&gt;
-      &lt;title&gt;${config.title} - ${config.subtitle}&lt;/title&gt;
-      &lt;link href='https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css' rel='stylesheet'&gt;
-      &lt;link href='https://cdn.jsdelivr.net/gh/sleepwood/cf-worker-dir@0.1.1/style.min.css' rel='stylesheet'&gt;
-      &lt;script src='https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js'&gt;&lt;/script&gt;
-      &lt;script src='https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js'&gt;&lt;/script&gt;
-      &lt;style&gt;
+  return `<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>${config.title} - ${config.subtitle}</title>
+      <link href="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/sleepwood/cf-worker-dir@0.1.1/style.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js"></script>
+      <style>
         html, body {
           margin: 0;
           padding: 0;
@@ -242,24 +241,24 @@ function renderHTML(index) {
           padding: 20px;
           text-align: center;
         }
-      &lt;/style&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
+      </style>
+  </head>
+  <body>
     ${index}
-    &lt;script&gt;
+    <script>
       $('.search').on('click', function (e) {
-        var url = '${config.search_engine[0].template}'; // 默认使用第一个搜索引擎
+        var url = "${config.search_engine[0].template}"; // 默认使用第一个搜索引擎
         url = url.replace(/\\$s/, $('#searchinput').val());
         window.open(url);
       });
-      $('#searchinput').bind('keypress', function(){
+      $("#searchinput").bind("keypress", function(){
         if (event.keyCode == 13){
-          $('.search').click();
+          $(".search").click();
         }
       });
-    &lt;/script&gt;
-  &lt;/body&gt;
-  &lt;/html&gt;`;
+    </script>
+  </body>
+  </html>`;
 }
 ```
 
@@ -267,14 +266,14 @@ function renderHTML(index) {
 
 ### 部署方法
 1.创建worker名称自定义
-2.修改代码-&gt;复制代码-&gt;部署
+2.修改代码->复制代码->部署
 3.访问分配的网址，就可以了
    - 可以使用自己的域名
 #### 使用方法
 16行添加导航标签
 
 ```
-{ url: '网址', name: '名称', desc: '介绍' },
+{ url: "网址", name: "名称", desc: "介绍" },
 
 ```
 每个分类导航标签`必须要`用“,”
@@ -283,9 +282,9 @@ function renderHTML(index) {
 
 5~7行自定义主标题
 ```
-  title: 'SUOU AKI 导航', // 网站标题
-  subtitle: '周防秋', // 网站副标题
-  logo_icon: 'aki', // 网站图标（使用semantic-ui图标）
+  title: "SUOU AKI 导航", // 网站标题
+  subtitle: "周防秋", // 网站副标题
+  logo_icon: "aki", // 网站图标（使用semantic-ui图标）
 
 ```
 
@@ -297,13 +296,13 @@ function renderHTML(index) {
 
 ### 代码
 ```
-const HTML_CONTENT = `&lt;!DOCTYPE html&gt;
-&lt;html lang='zh-CN'&gt;
-&lt;head&gt;
-&lt;meta charset='UTF-8'&gt;
-&lt;meta name='viewport' content='width=device-width, initial-scale=1.0'&gt;
-&lt;title&gt;Card Tab&lt;/title&gt;
-&lt;style&gt;
+const HTML_CONTENT = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Tab</title>
+<style>
 html, body {
     height: 100%;
     margin: 0;
@@ -478,68 +477,68 @@ body {
     color: #333;
     margin-bottom: 10px;
 }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;h1&gt;SUOU AKI导航&lt;/h1&gt;
+</style>
+</head>
+<body>
+<h1>SUOU AKI导航</h1>
 
-&lt;div class='admin-controls'&gt;
-&lt;input type='password' id='admin-password' placeholder='输入密码'&gt;
-&lt;button id='admin-mode-btn' onclick='toggleAdminMode()'&gt;进入管理模式&lt;/button&gt;
-&lt;/div&gt;
+<div class="admin-controls">
+<input type="password" id="admin-password" placeholder="输入密码">
+<button id="admin-mode-btn" onclick="toggleAdminMode()">进入管理模式</button>
+</div>
 
-&lt;div class='add-remove-controls'&gt;
-&lt;button class='round-btn' onclick='showAddDialog()'&gt;+&lt;/button&gt;
-&lt;button class='round-btn' onclick='toggleRemoveMode()'&gt;-&lt;/button&gt;
-&lt;/div&gt;
+<div class="add-remove-controls">
+<button class="round-btn" onclick="showAddDialog()">+</button>
+<button class="round-btn" onclick="toggleRemoveMode()">-</button>
+</div>
 
-&lt;div id='sections-container'&gt;
-&lt;!-- 分类将在这里动态生成 --&gt;
-&lt;/div&gt;
+<div id="sections-container">
+<!-- 分类将在这里动态生成 -->
+</div>
 
-&lt;button id='theme-toggle' onclick='toggleTheme()'&gt;◑&lt;/button&gt;
+<button id="theme-toggle" onclick="toggleTheme()">◑</button>
 
-&lt;div id='dialog-overlay'&gt;
-&lt;div id='dialog-box'&gt;
-&lt;label for='name-input'&gt;名称&lt;/label&gt;
-&lt;input type='text' id='name-input'&gt;
-&lt;label for='url-input'&gt;地址&lt;/label&gt;
-&lt;input type='text' id='url-input'&gt;
-&lt;label for='category-select'&gt;选择分类&lt;/label&gt;
-&lt;select id='category-select'&gt;
-&lt;!-- 分类选项将在这里动态生成 --&gt;
-&lt;/select&gt;
-&lt;button onclick='addLink()'&gt;确定&lt;/button&gt;
-&lt;button onclick='hideAddDialog()'&gt;取消&lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class='copyright'&gt;
-    &lt;!--    请不要删除 --&gt;
-    &lt;p&gt;&lt;a href='https://dir.momobako.me/' target='_blank'&gt;更多&lt;/a&gt;
-&lt;/div&gt;
+<div id="dialog-overlay">
+<div id="dialog-box">
+<label for="name-input">名称</label>
+<input type="text" id="name-input">
+<label for="url-input">地址</label>
+<input type="text" id="url-input">
+<label for="category-select">选择分类</label>
+<select id="category-select">
+<!-- 分类选项将在这里动态生成 -->
+</select>
+<button onclick="addLink()">确定</button>
+<button onclick="hideAddDialog()">取消</button>
+</div>
+</div>
+<div class="copyright">
+    <!--    请不要删除 -->
+    <p><a href="https://dir.momobako.me/" target="_blank">更多</a>
+</div>
 
-&lt;script&gt;
+<script>
 let isAdmin = false; 
 let removeMode = false; 
 let isDarkTheme = false; 
 let links = []; 
 const categories = {
-'常用网站': [],                   // **编辑自己的网站分类**
-'工具导航': [],
-'游戏娱乐': [],
-'影音视听': [],
-'技术论坛': []
+"常用网站": [],                   // **编辑自己的网站分类**
+"工具导航": [],
+"游戏娱乐": [],
+"影音视听": [],
+"技术论坛": []
 };
 
 async function loadLinks() {
 const response = await fetch('/api/getLinks?userId=testUser');
 links = await response.json();
 
-Object.keys(categories).forEach(key =&gt; {
+Object.keys(categories).forEach(key => {
 categories[key] = [];
 });
 
-links.forEach(link =&gt; {
+links.forEach(link => {
 if (categories[link.category]) {
 categories[link.category].push(link);
 }
@@ -554,7 +553,7 @@ function loadSections() {
 const container = document.getElementById('sections-container');
 container.innerHTML = '';
 
-Object.keys(categories).forEach(category =&gt; {
+Object.keys(categories).forEach(category => {
 const section = document.createElement('div');
 section.className = 'section';
 
@@ -569,7 +568,7 @@ cardContainer.id = category;
 section.appendChild(title);
 section.appendChild(cardContainer);
 
-categories[category].forEach(link =&gt; {
+categories[category].forEach(link => {
 createCard(link, cardContainer);
 });
 
@@ -617,7 +616,7 @@ return 'http://' + url;
 let correctedUrl = correctUrl(link.url);
 
 if (!isAdmin) {
-card.addEventListener('click', () =&gt; {
+card.addEventListener('click', () => {
 window.open(correctedUrl, '_blank');
 });
 }
@@ -646,7 +645,7 @@ card.addEventListener('dragover', dragOver);
 card.addEventListener('dragend', dragEnd);
 card.addEventListener('drop', drop);
 
-if (isAdmin &amp;&amp; removeMode) {
+if (isAdmin && removeMode) {
 deleteBtn.style.display = 'block';
 }
 
@@ -657,7 +656,7 @@ function updateCategorySelect() {
 const categorySelect = document.getElementById('category-select');
 categorySelect.innerHTML = '';
 
-Object.keys(categories).forEach(category =&gt; {
+Object.keys(categories).forEach(category => {
 const option = document.createElement('option');
 option.value = category;
 option.textContent = category;
@@ -683,7 +682,7 @@ const name = document.getElementById('name-input').value;
 const url = document.getElementById('url-input').value;
 const category = document.getElementById('category-select').value;
 
-if (name &amp;&amp; url &amp;&amp; category) {
+if (name && url && category) {
 const newLink = { name, url, category };
 
 if (!categories[category]) {
@@ -706,7 +705,7 @@ function removeCard(card) {
 const url = card.querySelector('.card-url').textContent;
 let category;
 for (const key in categories) {
-const index = categories[key].findIndex(link =&gt; link.url === url);
+const index = categories[key].findIndex(link => link.url === url);
 if (index !== -1) {
 categories[key].splice(index, 1);
 category = key;
@@ -724,19 +723,19 @@ function dragStart(event) {
 if (!isAdmin) return;
 draggedCard = event.target;
 draggedCard.classList.add('dragging');
-event.dataTransfer.effectAllowed = 'move';
+event.dataTransfer.effectAllowed = "move";
 }
 
 function dragOver(event) {
 if (!isAdmin) return;
 event.preventDefault();
 const target = event.target.closest('.card');
-if (target &amp;&amp; target !== draggedCard) {
+if (target && target !== draggedCard) {
 const container = target.parentElement;
 const mousePositionX = event.clientX;
 const targetRect = target.getBoundingClientRect();
 
-if (mousePositionX &lt; targetRect.left + targetRect.width / 2) {
+if (mousePositionX < targetRect.left + targetRect.width / 2) {
 container.insertBefore(draggedCard, target);
 } else {
 container.insertBefore(draggedCard, target.nextSibling);
@@ -765,10 +764,10 @@ if (!isAdmin) return;
 const containers = document.querySelectorAll('.card-container');
 let newLinks = [];
 
-containers.forEach(container =&gt; {
+containers.forEach(container => {
 const category = container.id;
 categories[category] = [];
-[...container.children].forEach(card =&gt; {
+[...container.children].forEach(card => {
 const url = card.querySelector('.card-url').textContent;
 const name = card.querySelector('.card-title').textContent;
 const link = { name, url, category };
@@ -794,10 +793,10 @@ const addRemoveControls = document.querySelector('.add-remove-controls');
 
 if (!isAdmin) {
 verifyPassword(passwordInput.value)
-.then(isValid =&gt; {
+.then(isValid => {
 if (isValid) {
 isAdmin = true;
-adminBtn.textContent = '退出管理模式';
+adminBtn.textContent = "退出管理模式";
 alert('已进入管理模式');
 addRemoveControls.style.display = 'block';
 reloadCardsAsAdmin();
@@ -808,11 +807,11 @@ alert('密码错误');
 } else {
 isAdmin = false;
 removeMode = false;
-adminBtn.textContent = '进入管理模式';
+adminBtn.textContent = "进入管理模式";
 alert('已退出管理模式');
 addRemoveControls.style.display = 'none';
 const deleteButtons = document.querySelectorAll('.delete-btn');
-deleteButtons.forEach(btn =&gt; btn.style.display = 'none');
+deleteButtons.forEach(btn => btn.style.display = 'none');
 reloadCardsAsAdmin();
 }
 
@@ -820,10 +819,10 @@ passwordInput.value = '';
 }
 
 function reloadCardsAsAdmin() {
-document.querySelectorAll('.card-container').forEach(container =&gt; {
+document.querySelectorAll('.card-container').forEach(container => {
 container.innerHTML = '';
 });
-loadLinks().then(() =&gt; {
+loadLinks().then(() => {
 if (isDarkTheme) {
 applyDarkTheme();
 }
@@ -834,7 +833,7 @@ function applyDarkTheme() {
 document.body.style.backgroundColor = '#121212';
 document.body.style.color = '#ffffff';
 const cards = document.querySelectorAll('.card');
-cards.forEach(card =&gt; {
+cards.forEach(card => {
 card.style.backgroundColor = '#1e1e1e';
 card.style.color = '#ffffff';
 card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.5)';
@@ -853,7 +852,7 @@ document.getElementById('dialog-overlay').style.display = 'none';
 function toggleRemoveMode() {
 removeMode = !removeMode;
 const deleteButtons = document.querySelectorAll('.delete-btn');
-deleteButtons.forEach(btn =&gt; {
+deleteButtons.forEach(btn => {
 btn.style.display = removeMode ? 'block' : 'none';
 });
 }
@@ -866,7 +865,7 @@ document.body.style.backgroundColor = isDarkTheme ? '#121212' : '#d8eac4';
 document.body.style.color = isDarkTheme ? '#ffffff' : '#333';
 
 const cards = document.querySelectorAll('.card');
-cards.forEach(card =&gt; {
+cards.forEach(card => {
 // 卡片背景和文本颜色设置
 card.style.backgroundColor = isDarkTheme ? '#1e1e1e' : '#a0c9e5';
 card.style.color = isDarkTheme ? '#ffffff' : '#333';
@@ -882,7 +881,7 @@ dialogBox.style.backgroundColor = isDarkTheme ? '#1e1e1e' : '#ffffff';
 dialogBox.style.color = isDarkTheme ? '#ffffff' : '#333';
 
 const inputs = dialogBox.querySelectorAll('input, select');
-inputs.forEach(input =&gt; {
+inputs.forEach(input => {
 // 输入框背景和文本颜色设置
 input.style.backgroundColor = isDarkTheme ? '#333333' : '#ffffff';
 input.style.color = isDarkTheme ? '#ffffff' : '#333';
@@ -901,9 +900,9 @@ return result.valid;
 }
 
 loadLinks();
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+</script>
+</body>
+</html>
 `;
 
 export default {
@@ -922,13 +921,13 @@ const links = await env.CARD_ORDER.get(userId);
 return new Response(links || JSON.stringify([]), { status: 200 });
 }
 
-if (url.pathname === '/api/saveOrder' &amp;&amp; request.method === 'POST') {
+if (url.pathname === '/api/saveOrder' && request.method === 'POST') {
 const { userId, links } = await request.json();
 await env.CARD_ORDER.put(userId, JSON.stringify(links));
 return new Response(JSON.stringify({ success: true }), { status: 200 });
 }
 
-if (url.pathname === '/api/verifyPassword' &amp;&amp; request.method === 'POST') { 
+if (url.pathname === '/api/verifyPassword' && request.method === 'POST') { 
 const { password } = await request.json();
 const isValid = password === env.ADMIN_PASSWORD; // 从环境变量中获取密码
 return new Response(JSON.stringify({ valid: isValid }), {
@@ -947,34 +946,10 @@ return new Response('Not Found', { status: 404 });
   -  名称自定义
   - 创建KV空间
      - KV名称`随意`
-  - 找到刚刚创建的worker项目-&gt;`设置`-&gt;`绑定`
+  - 找到刚刚创建的worker项目->`设置`->`绑定`
      - 选择KV **名称**输入`CARD_ORDER`选择刚创建的KV空间
-  -  在`设置`-&gt;`机密/变量`
-     -  选择添加-&gt;类型`文本`-&gt;名称`ADMIN_PASSWORD`-&gt;值`自定义管理员密码`（只支持数字）
+  -  在`设置`->`机密/变量`
+     -  选择添加->类型`文本`->名称`ADMIN_PASSWORD`->值`自定义管理员密码`（只支持数字）
 
 
- #### 使用方法。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/bu-shu-zai-cloudflare-shang-de-ge-ren-jing-tai-dao-hang-wang-ye-%E3%80%82.html</guid><pubDate>Tue, 22 Apr 2025 03:35:40 +0000</pubDate></item><item><title>测试</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</link><description>影片测试
----
-
-### [official]トルコ行進曲 - オワタ＼(^o^)／ feat.オワタP(AIきりたん).mp4
-
-&lt;video controls&gt;
-    &lt;source src='https://github.com/momobako22/media-hosting/raw/refs/heads/main/%E5%BD%B1%E7%89%87/%E8%90%9D%E8%8E%89%E6%8E%A7.mp4' type='video/mp4'&gt;
-    Your browser does not support the video tag.
-&lt;/video&gt;。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/ce-shi.html</guid><pubDate>Tue, 15 Apr 2025 14:47:15 +0000</pubDate></item><item><title>使用GitHub构建暴露在公网上的永久轻量级博客</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/shi-yong-GitHub-gou-jian-bao-lu-zai-gong-wang-shang-de-yong-jiu-qing-liang-ji-bo-ke.html</link><description>[Gmeek](https://github.com/Meekdai/Gmeek)
----
-&gt;本项目来源于https://github.com/Meekdai/Gmeek
-&gt;一个博客框架，超轻量级个人博客模板。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/shi-yong-GitHub-gou-jian-bao-lu-zai-gong-wang-shang-de-yong-jiu-qing-liang-ji-bo-ke.html</guid><pubDate>Sat, 12 Apr 2025 08:37:23 +0000</pubDate></item><item><title>GitHub 图床 + Cloudflare 加速 部署</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/GitHub%20-tu-chuang-%20%2B%20Cloudflare%20-jia-su-%20-bu-shu.html</link><description>## 问题
-免费存储图片太难了，上传速度慢，甚至可能会遇到流量限制，尤其是部分图床服务在国内经常被墙，导致图片无法正常加载。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/GitHub%20-tu-chuang-%20%2B%20Cloudflare%20-jia-su-%20-bu-shu.html</guid><pubDate>Sat, 12 Apr 2025 06:33:46 +0000</pubDate></item><item><title>基於CloudFlare Pages的開源文件託管解決方案（圖床，文件，床網盤）使用telegram建立無限空間永久免費圖床，單一檔案30M上傳。</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/ji-yu-CloudFlare%20Pages-de-kai-yuan-wen-jian-tuo-guan-jie-jue-fang-an-%EF%BC%88-tu-chuang-%EF%BC%8C-wen-jian-%EF%BC%8C-chuang-wang-pan-%EF%BC%89-shi-yong-telegram-jian-li-wu-xian-kong-jian-yong-jiu-mian-fei-tu-chuang-%EF%BC%8C-dan-yi-dang-an-30M-shang-chuan-%E3%80%82.html</link><description>&gt;覆蓋大多數文件格式：支援絕大多數常見圖片、影片、動圖等，同時也支援其他大多數格式的文件
-&gt;免費文件存放解決方案，具備上傳、管理、讀取、刪除等全貨架功能，涵蓋文件全生命週期，支援鑑權、目錄、圖片審查、隨機圖等各項各項功能
-![示例图片](http://momo-1-img.ao1160301aila.workers.dev/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-04-11%20224954.png)
----
-準備工作
-------
-- [githube](https://github.com/)帳號
-- [cloudflare](https://dash.cloudflare.com/)帳號
-- Telegram帳號
-
-前提
-------
- - 創建BotBotbot机器人 [@BotFather](https://t.me/BotFather)發送/newbot，依照提示輸入機器人的備註、使用者名稱等資訊。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/ji-yu-CloudFlare%20Pages-de-kai-yuan-wen-jian-tuo-guan-jie-jue-fang-an-%EF%BC%88-tu-chuang-%EF%BC%8C-wen-jian-%EF%BC%8C-chuang-wang-pan-%EF%BC%89-shi-yong-telegram-jian-li-wu-xian-kong-jian-yong-jiu-mian-fei-tu-chuang-%EF%BC%8C-dan-yi-dang-an-30M-shang-chuan-%E3%80%82.html</guid><pubDate>Fri, 11 Apr 2025 14:28:51 +0000</pubDate></item><item><title>momo的测试</title><link>https://akxxxxxxxxx9.github.io/mo.github.io/post/momo-de-ce-shi.html</link><description>#momo的测试。</description><guid isPermaLink="true">https://akxxxxxxxxx9.github.io/mo.github.io/post/momo-de-ce-shi.html</guid><pubDate>Fri, 11 Apr 2025 12:40:24 +0000</pubDate></item></channel></rss>
+ #### 使用方法
