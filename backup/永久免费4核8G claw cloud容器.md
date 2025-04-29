@@ -26,7 +26,8 @@
 应用程式蛮多服务端
 ![image.png](https://img.996399.xyz/file/1745938739910_image.png)
 右上角点击大头贴，点击**plan**查看用户计划
-![屏幕截图 2025-04-29 230017.png](https://img.996399.xyz/file/1745938999779_屏幕截图 2025-04-29 230017.png)
+
+![55.png](https://img.996399.xyz/file/1745941082115_55.png)
 
 `有每月5美元体验金的；`
 ![image.png](https://img.996399.xyz/file/1745939300439_image.png)
